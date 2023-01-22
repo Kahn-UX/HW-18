@@ -40,18 +40,21 @@ h1 {
 }
 
 h2 {
+  
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 2rem;
 }
 
 .smallText {
+  
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 14px;
 }
 
 p {
+  outline: solid red;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
@@ -62,6 +65,7 @@ p {
 /* HEADER & NAVIGATION */
 
 header {
+  outline: solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +75,7 @@ header {
 }
 
 * {
+  outline: solid red;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -79,31 +84,37 @@ header {
 }
 
 .logo {
+  outline: solid red;
   cursor: pointer;
   max-width: 100px;
   justify-content: flex-start;
 }
 
 .navLinks {
+  outline: solid red;
   list-style: none;
 }
 
 .navLinks li {
+  outline: solid red;
   display: inline-flex;
   padding-inline: 0px 30px;
 }
 
 .navLinks li a {
+  outline: solid red;
   transition: all 0.3s ease 0s;
 }
 
 .navLinks li a:hover {
+  outline: solid red;
   color: #0088a9
 }
 
 /* BUTTONS */
 
 button {
+  outline: solid red;
   min-width: 100%;
   min-height: 100%;
   padding: 9px 10px;
@@ -121,16 +132,19 @@ button:hover {
 /* HERO IMAGE */
 
 hero {
+  outline: solid red;
   display: flex;
   background-color: #C0BAB3;
 }
 
 .profilePicture {
+  outline: solid red;
   max-height: 800px;
 
 }
 
 .containerFlex {
+  outline: solid red;
   display: flex;
   width: 50vw;
   height: 800px;
@@ -139,16 +153,19 @@ hero {
 }
 
 .divCenter {
+  outline: solid red;
   align-items: center;
   justify-content: center;
 }
 
 .centerText {
+  outline: solid red;
   margin: 5rem;
   padding: 5rem;
 }
 
 .heroContainer {
+  outline: solid red;
   display: flex;
   height: 800px;
   background-color: white;
@@ -168,12 +185,14 @@ hero {
 }
 
 .flexItemRow {
+  outline: solid red;
   width: 100%;
   display: flex;
   
 }
 
 .flexItemFirst {
+  outline: solid red;
   width: 675px;
   height: 125px;
   align-items: center;
@@ -185,22 +204,26 @@ hero {
 }
 
 .columnBox {
+  outline: solid red;
   display: flex;
   flex-direction: column;
   max-width: 450px;
 }
 
 .innerColumnBox {
+  outline: solid red;
   padding: 0 20px;
 
 }
 
 .rowBox {
+  outline: solid red;
   flex-direction: row;
   height: 300px;
 }
 
 .innerRowBox {
+  outline: solid red;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -208,6 +231,7 @@ hero {
 }
 
 .icon {
+  outline: solid red;
   padding: 10px;
 }
 
